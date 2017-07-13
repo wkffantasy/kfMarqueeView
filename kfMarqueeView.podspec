@@ -1,7 +1,7 @@
 # @Author: wangkongfei
 # @Date:   2017-07-13T15:21:04+08:00
 # @Last modified by:   wangkongfei
-# @Last modified time: 2017-07-13T16:38:18+08:00
+# @Last modified time: 2017-07-13T17:04:32+08:00
 
 
 
@@ -137,7 +137,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
